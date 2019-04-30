@@ -16,8 +16,6 @@
 	"keywords": [
 		"regon",
 		"node-regon",
-		"antigate",
-		"anti-captcha",
 		"nip",
 		"krs",
 		"wyszukiwarkaregon",
@@ -45,7 +43,6 @@
 		"mocha": "2.x.x"
 	},
 	"dependencies": {
-		"antigate": "0.0.1",
 		"chai": "^3.5.0",
 		"debug": "^2.2.0",
 		"lodash": "^4.12.0",
