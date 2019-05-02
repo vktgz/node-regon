@@ -21,19 +21,11 @@ console.log("_________________________________");
 gus = Client.createClient({
     // key: "HERE_PUT_YOUR_PRODUCTION_KEY",
     disableAsync:true, // if it is true, you will get returned result, and it will waid for end of call
-    captcha: {
-      autofill: false,
-      apiKey: "ANTIGATE_API"
-    }
 });
 // AVAILABLE ADDITIONAL OPTIONS:
 // sandbox: false,  - but it don't work for some time, by default is true
 // autoLogin: false, - if you want to run gis.login(), by yourself
 // sid:"YOUR SESS ID", - if you want to pass your session id
-// captcha: {
-//   autofill: true,
-//   apiKey: "YOUR_ANTIGATE_API_KEY"
-// }
 // if you want to auto resolve captchas.
 
 
